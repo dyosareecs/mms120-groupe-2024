@@ -6,6 +6,7 @@ body {
     background: #f0ecea;
     font-family: 'Montserrat', sans-serif;
     color: #d6593a;
+    overflow-x: hidden;
 }
 
 header {
@@ -36,24 +37,31 @@ nav a {
     color: #fff;
 }
 
-.rectangle {
-    width: 100%;
-    length: 500px;
-    background-color: #f2d7d2;
+.rounded-rec {
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 300px;
+    background-color: #f2d7d2;
+    border-radius: 30px;
+    z-index: 0;
 
+}
 main {
-    padding: 20px;
     text-align: left;
-    left: 50px;
 }
 
 main h1 {
     position: relative;
-    left: 300px;
+    top: 100px;
+    left: 550px;
     font-size: 30px;
+}
+
+main img {
+    position: relative;
+    top: -50px;
+    left: 200px;
+    width: 200px;
 }
