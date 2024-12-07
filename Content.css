@@ -332,3 +332,75 @@ th, td {
     margin-left: 100;
     margin-right: 100;
 }
+
+/*DISRUPTIONS IN TRADITIONAL DATING*/
+
+/* Container section */
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* Text content functions */
+.text-content {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+/* Heading (introduction) */
+.heading-intro {
+    font-size: 62px; 
+    font-family: 'Poppins', sans-serif; 
+    color: #d7593b;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 1px; 
+}
+
+.text-content p {
+    font-family: 'Open Sans', sans-serif;
+    color: #d7593b; 
+    font-size: 20px;
+    padding: 15px 0 25px;
+    text-indent: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Image content functions */
+.image-content {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 30px; 
+}
+
+/* Row styling */
+.row {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Centered section */
+.centered-section {
+    text-align: justify;
+}
+
+.centered-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    color: #d7593b;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    width: 80%;
+    margin-top: 5px; 
+}
+
